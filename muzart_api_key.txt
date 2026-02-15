@@ -1,0 +1,6 @@
+Muzart's Scope credentials (DO NOT COMMIT)
+--------------------------------------------
+user_id:      6146bccd-bea8-4033-a731-673538e75f45
+workspace_id: 981476c7-5b5d-482a-b078-f45137317523
+api_key:      JjUleKIQvM_qI7S_H72jAZ62vROH_XOHoJH5GRqc3GY
+email:        kmtuman@gmail.com
