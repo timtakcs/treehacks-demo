@@ -1,0 +1,28 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/timurtakhtarov/Programming/treehacks-demo/.claude/hooks/scope-sync.py"
+          }
+        ]
+      }
+    ]
+  },
+  "mcpServers": {
+    "scope": {
+      "command": "python3",
+      "args": [
+        "-m",
+        "mcp_server.run_stdio"
+      ],
+      "cwd": "/Users/timurtakhtarov/Programming/treehacks26",
+      "env": {
+        "SCOPE_CONFIG_PATH": "/Users/timurtakhtarov/Programming/treehacks-demo/.scope.json"
+      }
+    }
+  }
+}
